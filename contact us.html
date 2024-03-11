@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tech Traders</title>
+</head>
+<body>
+    <style>
+    </style>
+   <div class="topnav">
+    <b>
+        <a  href="index.html">HOME</a>
+            <a href="news.html">NEWS</a>
+            <a href="product.html">PRODUCT</a>
+            <a class="active" href="contact us.html">CONTACT US</a>
+            <input type="search" value="                                       Search Here" id="search">
+            <button><i class="fa-solid fa-magnifying-glass" ></i></button>
+    </div>
+    <div class="container3">
+        <img src="5.jpg" alt="contact us " id="contact">
+        <div class="card3">
+            <center>
+                <form name="myform" method="post" action="https://www.google.com/" onsubmit="return validateform()">
+                <h1>Contact Us</h1>
+                <label for="name">Full Name     :</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="email" id="email">Email :</label>
+                <input type="email" id="name" name="name">
+                <br>
+                <label for="password" id="pass">Password :</label>
+                <input type="password"  id="pass" name="password">
+                
+                <div class="message">
+                <label for="message" id="message">Message :</label>
+                <input type="text" name="message">
+                <br>
+                <input type="submit" value="Register" style="background-color:  rgb(252, 213, 193); border: solid  rgb(223, 178, 155);">
+                </div>
+                </form>
+            </center>
+        </div>
+    </div>
+    <script>
+        function validateform(){
+            var name=document.myform.name.value;
+            var name=document.myform.password.value;
+
+            if (name==null || name==""){
+                alert("Name can't be blank");
+                return false;
+            }
+            else if (password.lenght<6){
+                alert('Password must be 6 letters long!')
+                return false;
+            }
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Tech Traders</title>
+</head>
+<body>
+   <div class="topnav">
+    <b>
+        <a  href="index.html">HOME</a>
+            <a href="news.html">NEWS</a>
+            <a class="active" href="product.html">PRODUCT</a>
+            <a href="contact us.html">CONTACT US</a>
+            <input type="search" value="                                    Search Here" id="search">
+            <button><i class="fa-solid fa-magnifying-glass" ></i></button>
+        </b>
+    </div>
+    <div class="timer">
+        <h1>𝕊𝔸𝕃𝔼 𝔼ℕ𝔻𝕀ℕ𝔾</h1>
+        <div class="clock">
+            <span id="hrs">00</span>
+            <span>:</span>
+            <span id="min">00</span>
+            <span>:</span>
+            <span id="sec">00</span>
+        </div>
+    </div>
+    <script>
+        let hrs =document.getElementById('hrs');
+        let min =document.getElementById('min');
+        let sec =document.getElementById('sec');
+
+        setInterval(()=> {
+            let currentTime = new Date();
+            hrs.innerHTML = currentTime.getHours();
+            min.innerHTML = currentTime.getMinutes();
+            sec.innerHTML = currentTime.getSeconds();
+
+        },1000)
+    </script>
+
+    <div class="container">
+        <!--card 1-->
+        <div class="card1">
+            <br>
+
+        <img src="download (1).jpeg"  id="img1">
+       <div class="content">
+        <br>
+        <h4> Brand New Laptop</h4>
+        <p>Lenovo V15 G2 ITL - Intel Core i5-1135G7, 4GB Soldered RAM, 1TB HDD, 15.6" FHD, Black, 1 Year Warranty with Windows 11 and Free Backpack
+        </p>
+        <h3 style="color:red">Rs. 180,000</h3>
+      <center>
+        <input type="submit" value="Add To Cart" id="button" onclick="myfunction()">
+        <input type="submit" value="Buy Now" id="button">
+        <center>
+       </div>
+       <script>
+        function myfunction(){
+          alert("Added to cart")
+        }
+      </script>
+        <br>
+        <div class="links">
+            <center>
+                <b>
+                    <a><i class="fa-regular fa-heart" style="font-size: 24px;"></i></a>
+                    <a><i class="fa-solid fa-share"style="font-size: 24px;"></i></a>
+                </b>
+            </center>
+        </div>
+       </div>
+      <!--card 2-->
+      <div class="card1">
+            <br>
+         <img src="4.webp" id="img1">
+        <div class="content">
+            <br>
+            <br>
+            <br>
+            
+           
+         <h4> Brand New Laptop</h4>
+         <p>Lenovo V15 G2 ITL - Intel Core i5-1135G7, 4GB Soldered RAM, 1TB HDD, 15.6" FHD, Black, 1 Year Warranty with Windows 11 and Free Backpack
+         </p>
+         <h3 style="color:red">Rs. 170,000</h3>
+         <center>
+            <form name="form">
+            <input type="submit" value="Add To Cart" id="button" name="cart" onclick="myfunction()">
+            <input type="submit" value="Buy Now"  id="button">
+         </form>
+            <script>
+              function myfunction(){
+                alert("Added to cart")
+              }
+            </script>
+         </center>
+         </div>
+         <br>
+
+         <div class="links">
+
+         <center>
+            <b>
+                <a><i class="fa-regular fa-heart"style="font-size: 24px;"></i></a>
+                <a><i class="fa-solid fa-share"style="font-size: 24px;"></i></a>
+            </b>
+            </center>
+         </div>
+        </div>
+    
+      <!--card 3-->
+      <div class="card1">
+            <br>
+         <img src="images.jpeg" id="img1">
+        <div class="content">
+            <br>
+            <br>
+            <br>
+       
+         <h4> Brand New Laptop</h4>
+         <p>Lenovo V15 G2 ITL - Intel Core i5-1135G7, 4GB Soldered RAM, 1TB HDD, 15.6" FHD, Black, 1 Year Warranty with Windows 11 and Free Backpack
+         </p>
+         <h3 style="color:red">Rs. 190,000</h3>
+         <center>
+            <input type="submit" value="Add To Cart" id="button" onclick="myfunction()">
+            <input type="submit" value="Buy Now" id="button">
+         </center>
+        </div>
+        <script>
+            function myfunction(){
+              alert("Added to cart")
+            }
+          </script>
+         <br>
+         <div class="links">
+            <center>
+            <b>
+                <a><i class="fa-regular fa-heart"style="font-size: 24px;"></i></a>
+                <a><i class="fa-solid fa-share"style="font-size: 24px;"></i></a>
+            </b>
+             </center>
+         </div>
+        </div>
+    </div>
+    <div class="container">
+         <!--card 4-->
+      <div class="card2">
+        <br>
+     <img src="images (4).jpeg" id="img1">
+    <div class="content">
+     <h4> Brand New Laptop</h4>
+     <p>Lenovo V15 G2 ITL - Intel Core i5-1135G7, 4GB Soldered RAM, 1TB HDD, 15.6" FHD, Black, 1 Year Warranty with Windows 11 and Free Backpack
+     </p>
+     <h3 style="color:red">Rs. 160,000</h3>
+     <center>
+        <input type="submit" value="Add To Cart" id="button" onclick="myfunction()">
+        <input type="submit" value="Buy Now" id="button">
+     </center>
+     </div>
+     <br>
+     <script>
+        function myfunction(){
+          alert("Added to cart")
+        }
+      </script>
+     <div class="links">
+
+     <center>
+        <b>
+            <a><i class="fa-regular fa-heart"style="font-size: 24px;"></i></a>
+            <a><i class="fa-solid fa-share"style="font-size: 24px;"></i></a>
+        </b>
+        </center>
+     </div>
+    </div>
+     <!--card 5-->
+     <div class="card2">
+        <br>
+     <img src="image3.jpg" id="img1">
+    <div class="content">
+       
+     <h4> Brand New Laptop</h4>
+     <p>Lenovo V15 G2 ITL - Intel Core i5-1135G7, 4GB Soldered RAM, 1TB HDD, 15.6" FHD, Black, 1 Year Warranty with Windows 11 and Free Backpack
+     </p>
+     <h3 style="color:red">Rs. 150,000</h3>
+     <center>
+        <input type="submit" value="Add To Cart" id="button" onclick="myfunction()">
+        <input type="submit" value="Buy Now" id="button">
+     </center>
+     </div>
+     <br>
+     <script>
+        function myfunction(){
+          alert("Added to cart")
+        }
+      </script>
+
+     <div class="links">
+
+     <center>
+        <b>
+            <a><i class="fa-regular fa-heart"style="font-size: 24px;"></i></a>
+            <a><i class="fa-solid fa-share"style="font-size: 24px;"></i></a>
+        </b>
+        </center>
+     </div>
+    </div>
+     <!--card 6-->
+     <div class="card2">
+        <br>
+        <br>
+     <img src="images (6).jpeg" id="img1">
+     <br>
+     <br>
+     <br>
+     <br>
+    <div class="content">
+     <h4> Brand New Laptop</h4>
+     <p>Lenovo V15 G2 ITL - Intel Core i5-1135G7, 4GB Soldered RAM, 1TB HDD, 15.6" FHD, Black, 1 Year Warranty with Windows 11 and Free Backpack
+     </p>
+     <h3 style="color:red">Rs. 200,000</h3>
+     <center>
+        <input type="submit" value="Add To Cart" id="button" onclick="myfunction()">
+        <input type="submit" value="Buy Now" id="button">
+     </center>
+     </div>
+     <br>
+     <script>
+        function myfunction(){
+          alert("Added to cart")
+        }
+      </script>
+     <div class="links">
+
+     <center>
+        <b>
+            <a><i class="fa-regular fa-heart"style="font-size: 24px;"></i></a>
+            <a><i class="fa-solid fa-share" style="font-size: 24px;"></i></a>
+        </b>
+        </center>
+     </div>
+    </div>
+        </div>
+    </div>
+</body>
+</html>
